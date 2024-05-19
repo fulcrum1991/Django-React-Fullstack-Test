@@ -2,7 +2,7 @@ import axios from 'axios'
 import {ACCESS_TOKEN} from "./constants.js";
 import App from "./App.jsx";
 
-cosnt apiURL = '/choreo-apis/djangoreacttutorial/backend/restapi-be2/v1'
+const apiURL = '/choreo-apis/djangoreacttutorial/backend/restapi-be2/v1'
 
 const api = axios.create({
     baseURL: import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiURL
